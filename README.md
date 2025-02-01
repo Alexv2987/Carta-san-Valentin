@@ -6,12 +6,7 @@
     <title>Subir Imagen</title>
 </head>
 <body>
-    <h1>Subir Imagen del Día</h1>
-    <form action="/upload" method="post" enctype="multipart/form-data">
-        <label for="image">Selecciona una imagen:</label>
-        <input type="file" id="image" name="image" accept="image/*" required>
-        <br><br>
-        <button type="submit">Subir y Enviar</button>
-    </form>
+    <h1>Mi Imagen</h1>
+    <img src="https://drive.google.com/file/d/1S31rNt6mGG7rosxP9Bh2HBhnFSkx2eHG/view?usp=drivesdk" alt="Feliz 14 de Febrero">
 </body>
 </html>
